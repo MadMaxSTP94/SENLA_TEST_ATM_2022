@@ -1,1 +1,1 @@
-javac -d bin  -sourcepath src src/Application/Program.java
+javac -d bin  -sourcepath src src/main/java/com/company/app/App.java

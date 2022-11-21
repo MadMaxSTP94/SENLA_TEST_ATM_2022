@@ -1,1 +1,1 @@
-java -cp "bin" Application.Program
+java -cp "bin" main.java.com.company.app.App
