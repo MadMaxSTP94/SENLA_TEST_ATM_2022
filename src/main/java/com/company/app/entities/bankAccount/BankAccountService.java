@@ -154,7 +154,7 @@ public class BankAccountService {
                                     IOCUtil.writeMessage(ATM_NOT_ENOUGH_MONEY + cardBalance + "\t" + CARD_BALANCE + atmBalance);
 
                                 if(cardBalance < cashOutSum)
-                                    IOCUtil.writeMessage(CARD_BALANCE + "\t" + CARD_BALANCE + cardBalance);
+                                    IOCUtil.writeMessage(CARD_BALANCE + cardBalance);
 
                                 cashOutSum = Long.valueOf(IOCUtil.getString(MENU_CASH_OUT));
 
