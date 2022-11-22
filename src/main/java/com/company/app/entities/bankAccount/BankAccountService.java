@@ -151,7 +151,7 @@ public class BankAccountService {
                             while(atmBalance < cashOutSum || cardBalance < cashOutSum || cashOutSum < 0) {
 
                                 if(atmBalance < cashOutSum)
-                                    IOCUtil.writeMessage(ATM_NOT_ENOUGH_MONEY + "\t" + CARD_BALANCE + atmBalance);
+                                    IOCUtil.writeMessage(ATM_NOT_ENOUGH_MONEY + cardBalance + "\t" + CARD_BALANCE + atmBalance);
 
                                 if(cardBalance < cashOutSum)
                                     IOCUtil.writeMessage(CARD_BALANCE + "\t" + CARD_BALANCE + cardBalance);
